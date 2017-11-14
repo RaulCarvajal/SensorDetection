@@ -32,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
         for (int i=1;i<lista.size();i++){
             data.append(lista.get(i).getName()+"/");
             data.append(lista.get(i).getVendor()+"/");
-            data.append(lista.get(i).getVersion()+"/\n");
+            data.append(lista.get(i).getVersion()+"/");
+            data.append(lista.get(i).getMaximumRange()+"/");
+            data.append(lista.get(i).getMinDelay()+"/");
+            data.append(lista.get(i).getPower()+"/\n");
         }
 
         String arr[]=data.toString().split("\n");

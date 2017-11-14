@@ -33,5 +33,29 @@
             android:text="Version: "
             android:textColor="#222222"
             android:textStyle="italic" />
+        <TextView
+            android:id="@+id/rangomax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rango maximo: "
+            android:textColor="#222222"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/delay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delay minimo: "
+            android:textColor="#222222"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/power"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Poder: "
+            android:textColor="#222222"
+            android:textStyle="italic" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
